@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+  background-image: url(img/Mariano-Marcos-State-University-MMSU.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  padding: 5px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+}
+a {
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Original Surfer";
+  border: 2px solid black;
+}
+
+.a:hover {
+  border-radius: 15px;
+border-bottom: 5px solid black;
+  background-image: url(img/BG.jpg);
+  font-family: "Handlee";
+
+}
+h1 {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border: 2px solid black;
+  padding: 15px;
+}
+.h1{
+  background-image: url(img/BG.jpg);
+}
+p{
+ padding: 5%;
+ flex-direction: row;
+ display: flex;
+ margin: auto;
+ text-align: left;
+
+}
+.p1:hover{
+  background-color: whitesmoke;
+  transition: background-color 2.5s;
+  font-family: "Original Surfer";
+  border:black;
+  border-radius: 10px;
+  
+}
+
+.p2:hover{
+  background-color: whitesmoke;
+  transition: background-color 2.5s;
+  font-family: "Original Surfer";
+  border:  black;
+  border-radius: 10px;
+}
+
+h2{
+  font-family: "atomic age";
+ text-align: center;
+ background-repeat: no-repeat;
+ background-position: right 15%;
+ padding: 6%;
+ font-size: 300%;
+ background-image: url(img/CIT.png);
+}
+section{
+  border: 100px;
+  border-radius: 100px;
+color: black;
+background-repeat: no-repeat;
+ background-position: left 15%;
+background-image: url(img/mmsu\ logo.png);
+background-size: 14%;
+
+}
+div{
+background-color: gray;
+padding: 10%;
+ flex-direction: row;
+ display: flex;
+ margin: auto;
+ text-align: left;
+border: 3px solid green;
+background-image: url(img/Mariano-Marcos-State-University-MMSU.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1350px;
+border-radius: 20px;
+}
+ol{
+  background-color: green;
+  border: 2px solid gold;
+  padding: 20px;
+
+}
+li{
+  font-family: "Original Surfer";
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Original Surfer ";
+  font-size: 250%;
+}
+footer{
+  text-align: center;
+}
+
+
